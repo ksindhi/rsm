@@ -1,0 +1,122 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, code,
+del, em, img,
+small, strong,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas,
+figure, figcaption, footer, header,
+nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #000;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rsm-con {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.rsm-btn {
+  border-radius: 30px;
+  color: #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.rsm-btn-primary {
+  background: -webkit-gradient(linear, right top, left top, color-stop(14.14%, #FF5400), color-stop(60.2%, #FF9649));
+  background: linear-gradient(270deg, #FF5400 14.14%, #FF9649 60.2%);
+}
+
+.rsm-btn-primary:hover {
+  background: -webkit-gradient(linear, right top, left top, color-stop(14.14%, #FF9649), color-stop(60.2%, #FF5400));
+  background: linear-gradient(270deg, #FF9649 14.14%, #FF5400 60.2%);
+}
+
+.rsm-btn-secondary {
+  background: -webkit-gradient(linear, right top, left top, color-stop(14.14%, #FFC107), color-stop(60.2%, #0788FF));
+  background: linear-gradient(270deg, #FFC107 14.14%, #0788FF 60.2%);
+}
+
+.rsm-btn-secondary:hover {
+  background: -webkit-gradient(linear, right top, left top, color-stop(14.14%, #0788FF), color-stop(60.2%, #FFC107));
+  background: linear-gradient(270deg, #0788FF 14.14%, #FFC107 60.2%);
+}
+
+.rsm-btns .rsm-btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.rsm-head {
+  padding: 15px 0;
+}
+
+.rsm-head-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rsm-head-search {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 60px;
+}
+
+.rsm-head-search input {
+  width: 100%;
+  background: #1C1C1C;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 60px;
+  outline: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.rsm-data {
+  padding: 60px 0;
+}
+/*# sourceMappingURL=style.css.map */
